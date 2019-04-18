@@ -35,9 +35,9 @@ Após, ele irá salvar no Firestore, dentro da *collection* de *users* seguindo 
 
 ```json
 {
-  'user': 'email@rede.com.br',
-  'rede': 'nova-rede',
-  'deviceToken': 'er7PIAymSa4:APA91bE-t152dxjNCp2M4KTpSRBWlGFNrh...'
+  "user": "email@rede.com.br",
+  "rede": "nova-rede",
+  "deviceToken": "er7PIAymSa4:APA91bE-t152dxjNCp2M4KTpSRBWlGFNrh..."
 }
 ```
 
@@ -51,10 +51,10 @@ Portando **TODA** notificação, além de ser cadastrada na collection referente
 
 ```json
 {
-  'dateCreated': '2019-04-17 10:54',
-  'messageTitle': 'Nova Ordem de Serviço',
-  'messageBody': 'Você possui uma nova ordem de serviço cadastrada.',
-  'userDestination': 'email@rede.com.br',
+  "dateCreated": "2019-04-17 10:54",
+  "messageTitle": "Nova Ordem de Serviço",
+  "messageBody": "Você possui uma nova ordem de serviço cadastrada.",
+  "userDestination": "email@rede.com.br",
 }
 ```
 
